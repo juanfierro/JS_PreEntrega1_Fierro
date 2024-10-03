@@ -1,4 +1,3 @@
-
 // Declaración de productos y precios
 const productos = [
     { nombre: "Flor de Solapa", precio: 10 },
@@ -72,4 +71,8 @@ if (iniciarSesion()) {
     let totalFinal = calcularTotal(totalCompra);
     alert("Total a pagar: $" + totalFinal.toFixed(2));
     console.log("Total final: $" + totalFinal.toFixed(2));
+}
+else{
+    console.log("Sesión finalizada...");
+    alert("Se acabaron los intentos...");
 }
